@@ -1,0 +1,350 @@
+* {
+  background-color: #28282b;
+}
+
+.App a {
+  margin-left: 40px;
+}
+
+Header {
+  /* grid: 52px 48px / 56px; */
+  border-top: 8px solid;
+  border-bottom: 12px solid;
+}
+
+.menu {
+  grid: 64px / 64px auto 208px;
+  display: flex;
+  border-top: 24px solid var(--b_100);
+  border-bottom: 24px solid var(--b_100);
+  z-index: 7;
+}
+
+.right-nav {
+  position: relative;
+  font-size: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: transparent;
+
+  border: 0;
+  float: right;
+  font: 100px;
+  color: white;
+}
+
+.right-nav .payment {
+  background-image: url(//ccdn.lezhin.com/files/assets/img/28-symbol-coin-w.svg);
+  background: url(https://ccdn.lezhin.com/files/assets/img/28-symbol-coin.svg)
+    no-repeat 50%/28px;
+}
+
+.logo img {
+  width: 80x;
+  height: 80px;
+  background-size: 27px;
+  display: flex;
+  border-top: 20px;
+}
+
+.ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: inline;
+  list-style: none;
+}
+
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  color: white;
+
+  padding: 10px 20px;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  margin: 30px auto 0;
+  outline: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.btn2::before {
+  content: "";
+  border-bottom: 2px solid white;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  transition: 0.3s;
+}
+
+.btn2:hover:before {
+  width: 100%;
+  padding: 0;
+}
+
+.btn2:active {
+  background: white;
+  color: white;
+  transition: none;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  color: white;
+
+  padding: 10px 20px;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  margin: 30px auto 0;
+  outline: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.submit-btn::before {
+  content: "";
+  border-bottom: 2px solid white;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  transition: 0.3s;
+}
+
+.submit-btn:hover:before {
+  width: 100%;
+  padding: 0;
+}
+
+.submit-btn:active {
+  background: white;
+  color: white;
+  transition: none;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 385px;
+  margin-top: 10px;
+}
+
+.each-slide-effect2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+/* recommendation */
+/*first part */
+.reco {
+  width: 150px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4.5rem;
+  align-items: center;
+}
+
+/*second part*/
+.reco2 {
+  width: 150px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4.5rem;
+  align-items: center;
+}
+
+.reco-item {
+  text-align: center;
+  align-items: center;
+}
+
+.react-btn {
+  text-align: center;
+  background-color: grey;
+}
+
+.reco-item2 {
+  text-align: center;
+}
+
+.reco img {
+  width: 209px;
+  height: 300px;
+  border: 2px solid white;
+  background-color: lightgray;
+  align-content: center;
+}
+
+.reco2 img {
+  width: 209px;
+  height: 300px;
+  border: 2px solid white;
+  background-color: lightgray;
+  align-content: center;
+}
+
+.reco span {
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
+.reco2 .span2 {
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Sop's Reco */
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  color: var(--t_400);
+  font-size: 12px;
+  line-height: 1.5;
+  background: var(--b_200);
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0 12px;
+  color: var(--t_100);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  height: 56px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: -12px;
+
+  /* width: 100%;
+  padding: 24px 20px;
+  color: white;
+  background-color: #333333;
+  margin-top: 200px;
+  float: left;
+  display: flex;
+  text-align: left;
+  justify-content: space-between; */
+}
+
+.footer-item {
+  width: 120px;
+  margin: 0 32px 10px 0;
+  white-space: nowrap;
+  display: inline-block;
+  color: white;
+  text-align: left;
+}
+
+.footer-address {
+  padding-top: 12px;
+  line-height: 1.65;
+  padding-top: 20px;
+  font-size: 12px;
+  line-height: 1.9;
+  color: white;
+}
+
+.footer-check {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.footer-copyright {
+  display: none;
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.footer-social {
+  margin-left: -4px;
+  margin-top: 24px;
+  font-size: 0;
+}
+
+.footer__sns {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+  vertical-align: middle;
+  color: transparent;
+  white-space: nowrap;
+  background-color: var(--b_100);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.footer__sns--facebook {
+  background-image: url(//ccdn.lezhin.com/files/assets/img/s-facebook-dk.png);
+}
+
+.footer__sns--insta {
+  background-image: url(//ccdn.lezhin.com/files/assets/img/s-insta-dk.png);
+}
+
+.footer__sns--twitter {
+  background-image: url(//ccdn.lezhin.com/files/assets/img/s-twitter-dk.png);
+}
+
+.footer__sns--youtube {
+  background-image: url(//ccdn.lezhin.com/files/assets/img/s-youtube-dk.png);
+}
+
+.footer__social {
+  font-size: 0;
+}
